@@ -1,10 +1,10 @@
-# goal_coding
+# Goal Coding
 
  An interface to simplify Jupyter notebook management
 
 ## Problems investigated
 
-#### Easily switching the display between 2 modes of Jupyter operation: 
+#### Easily switching the display between 2 modes of Jupyter operation
 
 Development: where it's useful to see the result of each action  
 Release: the checks shouldn't be displayed so the notebook is easier to read
@@ -17,9 +17,9 @@ Hide object manipulations
 
 ## Pros & cons found so far
 
-### Managing objects 
+### Managing objects
 
-#### Pros  
+#### Pros
 
 Simplify the interface, make it higher level
 Faster to perform manipulations on a single object
@@ -27,7 +27,7 @@ Faster to perform manipulations on a single object
 #### Cons
 
 A little more verbose to use objects the standard way: g.o['object_name']
-    
+
 ### Tabbing to discover functionality 
 
 #### Pros
@@ -37,3 +37,7 @@ Simplify discovery of functionality
 #### Cons
 
 Jupyter tabbing seems to break sometimes
+
+## How to use
+
+Clone this project and run Goal Coding Demo.ipynb
