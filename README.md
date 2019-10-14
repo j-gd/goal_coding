@@ -1,43 +1,50 @@
 # Goal Coding
 
- An interface to simplify Jupyter notebook management
+ An experimental interface to:
 
-## Problems investigated
+### Make notebooks more readable
 
-#### Easily switching the display between 2 modes of Jupyter operation
+* Make notebooks higher level: encapsulating best of class approaches, managing notebook objects
 
-Development: where it's useful to see the result of each action  
-Release: the checks shouldn't be displayed so the notebook is easier to read
+* Provide 2 modes of operation: dev (debug/intermediate display) and production (no intermediate display)
 
-#### Making the notebook code higher level
+### Capture best of class methods
 
-Hide object manipulations
+### Help teach data science and Python
 
-#### Learning by doing: using tab completion as cheat sheet to learn commands
+Goal-oriented tab completion and syntax description
 
-## Pros & cons found so far
+## Learnings so far
+
+### Making notebooks more readable, encapsulate best of class approaches, PROD and DEV modes
+
+The approach looks promising. Would need to implement on a project to test further.
 
 ### Managing objects
 
 #### Pros
 
-Simplify the interface, make it higher level
-Faster to perform manipulations on a single object
+* Simplify the interface, make it higher level
+* Faster to perform manipulations on a single object
 
 #### Cons
 
 A little more verbose to use objects the standard way: g.o['object_name']
 
-### Tabbing to discover functionality 
+### Tabbing to discover functionality
 
 #### Pros
 
-Simplify discovery of functionality
+Simplifies discovery of functionality
 
 #### Cons
 
 Jupyter tabbing seems to break sometimes
 
+### Help teach data science and Python
+
+It seems more impactful to capture best known methods to improve a data scientist's skills, than to teach basic data science and Python skills, as a fair amount of knowledge would be needed to use this library.
+
 ## How to use
 
-Clone this project and run Goal Coding Demo.ipynb
+Run Goal Coding Demo.ipynb

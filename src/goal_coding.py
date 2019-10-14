@@ -139,12 +139,12 @@ class SubsetRows():
 
         if isinstance(on_object, pd.DataFrame) or isinstance(on_object, pd.DataFrame) \
           or isinstance(on_object, np.array):
-            print('df_or_series_or_np_array[condition_or_filter_for_samples_to_keep]\n')
 
             self._.o['train_df'] = self._.current[
                 condition_or_filter_for_samples_to_keep]
 
             if self._._debug_head > 0:
+                print('df_or_series_or_np_array[condition_or_filter_for_samples_to_keep]\n')
                 display(to_object[:self._._debug_head])
         else:
             print('Unsupported object type:', type(on_object))
